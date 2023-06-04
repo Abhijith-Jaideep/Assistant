@@ -85,7 +85,7 @@ def LiveStatus():
                         }
 
             headers = {
-                "X-RapidAPI-Key": "04e5a6cacamsh77eb2b74c7b64c3p12f470jsn346ace63076b",
+                "X-RapidAPI-Key": "",
                 "X-RapidAPI-Host": "irctc1.p.rapidapi.com"
             }
 
