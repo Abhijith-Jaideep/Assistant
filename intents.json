@@ -1,0 +1,222 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Hay"
+            ],
+            "responses": [
+                "Hello",
+                "Hi"
+            ]
+        },
+
+        {
+            "tag": "Language",
+            "patterns": [
+                "Change language",
+                "I want to change the language",
+                "Can you speak another language"
+            ],
+            "responses": [
+                "Yes of course",
+                "select a language"
+            ]
+        },
+
+        {
+            "tag": "Date",
+            "patterns": [
+                "date",
+                "What is todays date",
+                "what is the date today",
+                "what day is it today",
+                "what is the date"
+            ],
+            "responses":[
+
+            ]
+        },
+
+        {
+            "tag": "Time",
+            "patterns": [
+                "Time",
+                "What is the time now",
+                "What time is it",
+                "Can you tell me the time"
+            ],
+            "responses":[
+
+            ]
+        },
+
+        {
+            "tag": "TrainLiveStatus",
+            "patterns": [
+                "Train Details",
+                "Train Information",
+                "check train status",
+                "Train Live Status",
+                "I would like to know the live status of a train"
+            ],
+            "responses": [
+                "provide the train number and the number of days since the train started"
+            ]
+        },
+        
+        {
+            "tag": "how",
+            "patterns": [
+                "How are You",
+                "How do you do",
+                "Hows it going"
+            ],
+            "responses": [
+                "I am fine",
+                "I am fine and i am ready to assist you"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Who you are?"
+            ],
+            "responses": [
+                "I.m Dexter, your bot assistant",
+                "I'm Dexter, an Artificial Intelligent bot"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name",
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Dexter.",
+                "I'm Dexter!",
+                "Just call me as Dexter"
+            ]
+        },
+        {
+            "tag": "Gents Washroom",
+            "patterns": [
+                "Gents Washroom",
+                "Where is the nearest gents washroom",
+                "Where is gents bathroom",
+                "Where is gents toilet",
+                "Give the directions to gents bathroom",
+                "boys Washroom",
+                "Where is the nearest boys washroom",
+                "Where is boys bathroom",
+                "Where is boys toilet",
+                "Give the directions to boys bathroom",
+                "Gents Washroom",
+                "Where is the nearest mens washroom",
+                "Where is mens bathroom",
+                "Where is mens toilet",
+                "Give the directions to mens bathroom"
+            ],
+            "responses": [
+                "gents Washroom can be found on ground floor room 003",
+                "You can find gents washroom on room 103 on the first floor",
+                " gents Toilet Facilites on second floor room 203"
+            ]
+        },
+        {
+            "tag": "womens Washroom",
+            "patterns": [
+                "Womens Washroom",
+                "Ladies Washroom",
+                "Where is the nearest womens washroom",
+                "Where is womens bathroom",
+                "Where is womens toilet",
+                "Give the directions to womens bathroom",
+                "girls Washroom",
+                "Where is the nearest girls washroom",
+                "Where is girls bathroom",
+                "Where is girls toilet",
+                "Give the directions to girls bathroom",
+                "ladies Washroom",
+                "Where is the nearest ladies washroom",
+                "Where is ladies bathroom",
+                "Where is ladies toilet",
+                "Give the directions to ladies bathroom"
+            ],
+            "responses": [
+                "ladies Washroom can be found on ground floor room 003",
+                "You can find ladies washroom on room 103 on the first floor",
+                " ladies Toilet Facilites on second floor room 203"
+            ]
+        },
+        {
+            "tag": "non vegetarian Restaurant",
+            "patterns": [
+                "non vegetarian Restaurant",
+                "Where is nearest non vegetarian resturant",
+                "where is non vegetarian hotel",
+                "where is nearest non vegetarian hotel",
+                "give directions to non  vegetarian resturant"
+            ],
+            "responses": [
+                "non Vegetarian Restaurant Altaza outside the station 500 meter to the west",
+                " non Vegetarian Restaurant Beirut Buffet outside the station 1 kilometer to the east",
+                " non vegetarian Restaurant is 500 meters  to the south of the station"
+            ]
+        },
+        {
+            "tag": "vegetarian Restaurant",
+            "patterns": [
+                " vegetarian Restaurant",
+                "Where is nearest vegetarian resturant",
+                "where is vegetarian hotel",
+                "where is nearest vegetarian hotel",
+                "give directions to vegetarian resturant"
+            ],
+            "responses": [
+                "Vegetarian Restaurant Brahmins outside the station 500 meter to the west",
+                " Vegetarian Restaurant Surya outside the station 1 kilometer to the east",
+                "vegetarian Restaurant is 500 meters  to the south of the station"
+            ]
+        },
+        {
+            "tag": "Taxi stand",
+            "patterns": [
+                "Taxi",
+                "give directions to taxi stand",
+                "where is nearest taxi stand",
+                "taxi stand"
+            ],
+            "responses": [
+                "Taxi stand outside the station opposite the road",
+                "Taxi stand 1km north",
+                "2km away from station to west there is a taxi stand"
+            ]
+        }
+        
+    ] 
+}
